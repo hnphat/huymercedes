@@ -1,0 +1,431 @@
+* {
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* For header */
+#header {
+    background-color: #f8f8f8;
+}
+
+#menu {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 900;
+}
+#formDangKyLaiThu {
+    padding: 15px;
+}
+#formDangKyLaiThu p{
+    font-size: 14pt;
+}
+#formDangKyLaiThuXe p {
+    font-size: 14pt;
+}
+#formDongGopYKien p {
+    font-size: 14pt;
+}
+#formDatHen p {
+    font-size: 14pt;
+}
+#formBaoGia form {
+    padding-top: 10px;
+}
+#formBaoGia p {
+    font-size: 14pt;
+}
+#logoleft {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+/* ---------------------- */
+/* For Slide */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+/* ---------------------- */
+/* For Sản phẩm */
+#sanPham h3 {
+    text-decoration: underline;
+    font-style: italic;
+    color: dodgerblue;
+    text-align: center;
+}
+.shadow_box {    
+    width: 33.33%;
+    padding: 5px;
+}
+.shadow_box a {
+    color: black;
+    text-decoration: none;
+}
+.shadow_box img {
+    width: 100%;
+    height: auto;
+}
+
+.shadow_box div {
+    padding: 5px;
+    box-shadow: 0 0 4px lightblue;
+} 
+
+.shadow_box h5 {
+    padding-top: 10px;
+}
+/* ---------------------- */
+/* For menu */
+#navformobile {
+    display: none;
+}
+nav, .navbar-brand {
+    font-size: 16pt;
+}
+.nav-link, .navbar-brand {
+    color: black;
+    font-weight: bold;
+    font-size: 80%;
+}
+nav ul li {
+    padding: 0 10px;
+}
+
+.carimage {
+    width: 100%;
+}
+
+.carcolor {
+    width: 100px;
+}
+.navbarcolor {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbarcolor  li {
+    display: inline;
+}
+
+#onclickcolor:hover {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+}
+/* ---------------------- */
+#tinTuc h3 {
+    text-decoration: underline;
+    font-style: italic;
+    color: dodgerblue;
+    text-align: center;
+}
+#tinTuc .tinTucShadow {
+    padding: 5px;
+}
+
+.tinTucShadow {    
+    width: 25%;
+}
+.tinTucShadow img {
+    width: 100%;
+    height: auto;
+}
+
+.tinTucShadow div {
+    box-shadow: 0 0 1px lightblue;
+} 
+
+.tinTucShadow div a{
+    color: black;
+    text-decoration: none;
+} 
+
+.tinTucTilte {    
+    padding: 5px 10px 5px 10px;
+}
+/* ---------------------- */
+#tinTucKhac h3 {
+    text-decoration: underline;
+    font-style: italic;
+    color: dodgerblue;
+    text-align: center;
+}
+#tinTucKhacPanel {
+    width: 70%;
+}
+#quangCaoPanel {
+    padding: 0 0 0 20px;
+    width: 30%;
+}
+
+#quangCaoPanel img {
+    width: 100%;
+    height: auto;
+    padding: 10px 0 10px 0;
+}
+.rowBoxShadow {
+    margin: 10px 0 0 0;  
+    padding: 5px;
+    box-shadow: 0 0 3px gainsboro;
+}
+
+.box-img {
+    padding: 5px;
+    width: 30%;
+    height: auto;
+    float: left;
+}
+
+.box-img img{
+    width: 100%;
+}
+
+.boxTitle {    
+    padding: 5px 10px 5px 10px;
+}
+
+.boxTitle a {
+    color: black;
+    text-decoration: none;
+}
+
+#hotlines {
+    color: white;
+    padding: 10px;
+    background-color: #014488;
+}
+
+#hotlines a {
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+}
+
+#footer {   
+    padding: 10px;
+    background-color: black;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 110%;
+}
+
+
+#footer .infomation{
+    color: white;
+    padding: 10px;
+}
+
+.infomation span {
+    color: blue;
+    font-size: 14pt;
+}
+
+#copyright {
+    text-align: center;
+    color: white;
+}
+.form-inline input {
+    padding:5px;
+}
+
+#aSidePanel {
+    padding-left: 10px;   
+}
+.sanPhamNoiBat {
+    width: 100%;
+    height: 100%;
+    /* background-color: azure; */
+    box-shadow: 0 0 1px 0 gray;
+    padding: 5px;
+}
+
+.giaXe {
+    color: red;
+}
+
+.sanPhamNoiBat h5 { 
+    padding: 15px 0 0 5px;
+}
+
+.sanPhamNoiBat img { 
+    max-width: 150px;
+    height: auto;
+    float: left;
+}
+
+.sanPhamNoiBatRow div {
+    float: right;
+    padding: 20px;
+}
+
+.sanPhamNoiBatRow {
+    padding-top: 10px;
+    clear: both;
+    width: 300px;
+}
+
+.hrblue {
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+#navcarbox {
+    width: 1000px;
+}
+.boxcar {
+    display: inline-block;
+    max-width: 19%;
+}
+.boxcar img {
+    max-width: 200px;
+    text-align: center;
+}
+
+.boxcar a {
+    text-decoration: none;
+    color: black;
+}
+
+.fixedBtn {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+#tinTucVeXe {
+    padding: 5px;
+    overflow: hidden;
+    font-size: 14pt;
+}
+
+#tinTucVeXe img {
+    max-width: 900px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tinTucVeXe table img {
+    max-width: 500px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+#tinTucVeXe table td {
+    padding: 10px;
+}
+
+.breadcrumb-item {
+    font-size: 14pt;
+}
+
+.pagination li{
+    display: inline;
+}
+
+.spNoiBat {
+    font-size: 12pt;
+}
+
+@media only screen and (max-width: 768px) {
+    #navformobile {
+        display: block;
+    }
+    #logohyundai {
+        width: 50px;
+        height: auto;
+    }
+    #logohyundaiag {
+        width: 200px;
+        height: auto;
+    }
+    nav, .navbar-brand {
+        font-size: 14pt;
+    }
+    #header {
+        display: none;
+    }
+    .shadow_box {    
+        width: 50%;
+    }
+    .tinTucShadow {    
+        width: 50%;
+    }
+
+    #tinTucKhacPanel {
+        width: 100%;
+    }
+
+    #quangCaoPanel {
+       display: none;
+    }
+    .rowBoxShadow {
+        margin: 10px 0 0 0;  
+        box-shadow: 0 0 3px gainsboro;
+    }
+    .box-img {
+        padding: 5px 10px 5px 5px;
+        width: 30%;
+    }
+    .boxTitle {
+        padding: 0 5px 5px 5px;
+        width: 100%;
+    }
+    
+    .boxTitle h5 {
+        font-size: 80%;
+    }
+    .boxTitle p {
+        line-height: 16pt;
+    }  
+
+    
+    .sanPhamNoiBat {
+        background-color: white;
+        box-shadow: 0 0 0 0 white;
+    }
+    #navcarbox {
+        width: 100%;
+    }
+    .boxcar {
+        display: inline-block;
+        max-width: 200px;
+    }
+
+    #tinTucVeXe img {
+        max-width: 500px;
+        max-height: 300px;
+    }
+
+    #tinTucVeXe table td {
+        display: block;
+    }
+
+    /* #tinTucVeXe table td {
+        display: inline-block;
+        width: 30%;
+    } */
+
+    #tinTucVeXe table td img{
+        width: 100%;
+    }
+
+    #menu {
+        background-color: white;
+        position: static;
+    }
+}

@@ -1,0 +1,50 @@
+.picmini {
+    max-width: 150px;
+}
+
+.picslide {
+    max-width: 600px;
+}
+
+.picminiedit {
+    max-width: 300px;
+}
+
+#colorCheck:hover {
+    cursor: pointer;
+}
+
+#sHinhAnh {
+    max-width: 500px;
+}
+
+#slideShowImage {
+    max-width: 300px; 
+}
+
+#setOff {
+    cursor: pointer;
+} 
+
+#setOn {
+    cursor: pointer;
+}
+
+.table-responsive {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgServer {
+    height: auto;
+    margin-right : auto;
+    margin-left : auto;
+    min-width : 200px;
+    max-width : 650px;
+}
+#noiDungShow {
+    overflow: hidden;
+}
+#noiDungShow img {
+    max-width: 900px;
+}
